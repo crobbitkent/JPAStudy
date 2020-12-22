@@ -5,30 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="019188a4-0923-496f-82c4-610b6ac32ee3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/Delivery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/DeliveryStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/itemPackage/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/itemPackage/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/itemPackage/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/itemPackage/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/repositoryPackage/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/servicePackage/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jpa/jpaservice/MemberRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jpa/jpaservice/domainPakage/servicePackage/MemberServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/repositoryPackage/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/repositoryPackage/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/repositoryPackage/OrderSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/servicePackage/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/servicePackage/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/exception/NotEnoughStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jpa/jpaservice/domainPakage/servicePackage/OrderServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/itemPackage/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/itemPackage/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/repositoryPackage/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/repositoryPackage/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/servicePackage/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpa/jpaservice/domainPakage/servicePackage/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jpa/jpaservice/MemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jpa/jpaservice/MemberRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jpa/jpaservice/domainPakage/servicePackage/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jpa/jpaservice/domainPakage/servicePackage/MemberServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +37,8 @@
       <list>
         <option value="HTML File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,7 +66,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -85,9 +77,8 @@
       <recent name="jpa.jpaservice.domainPakage.servicePackage" />
       <recent name="jpa.jpaservice" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="jpa.jpaservice.domainPakage" />
-      <recent name="jpa.jpaservice.domain" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CrobbitKent\jpaservice\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CrobbitKent\jpaservice\src\test\resources" />
@@ -95,40 +86,12 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\CrobbitKent\jpaservice\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="jpa.jpaservice.domainPakage" />
+      <recent name="jpa.jpaservice.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberServiceTest">
-    <configuration name="JpaserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jpa.jpaservice.JpaserviceApplication" />
-      <module name="jpaservice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jpa.jpaservice.domainPakage.itemPackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberRepositoryTest.testMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jpaservice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jpa.jpaservice.domainPakage.itemPackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jpa.jpaservice" />
-      <option name="MAIN_CLASS_NAME" value="jpa.jpaservice.MemberRepositoryTest" />
-      <option name="METHOD_NAME" value="testMember" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.OrderServiceTest">
     <configuration name="MemberServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpaservice.test" />
       <extension name="coverage">
@@ -144,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberServiceTest.회원가입" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpaservice.test" />
       <extension name="coverage">
         <pattern>
@@ -153,14 +116,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jpa.jpaservice.domainPakage.servicePackage" />
-      <option name="MAIN_CLASS_NAME" value="jpa.jpaservice.domainPakage.servicePackage.MemberServiceTest" />
-      <option name="METHOD_NAME" value="회원가입" />
+      <option name="MAIN_CLASS_NAME" value="jpa.jpaservice.domainPakage.servicePackage.OrderServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceTest.상품주문" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpaservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpa.jpaservice.domainPakage.servicePackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpa.jpaservice.domainPakage.servicePackage" />
+      <option name="MAIN_CLASS_NAME" value="jpa.jpaservice.domainPakage.servicePackage.OrderServiceTest" />
+      <option name="METHOD_NAME" value="상품주문" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberServiceTest.중복_회원_예외" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderServiceTest.주문취소" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jpaservice.test" />
       <extension name="coverage">
         <pattern>
@@ -169,8 +147,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jpa.jpaservice.domainPakage.servicePackage" />
-      <option name="MAIN_CLASS_NAME" value="jpa.jpaservice.domainPakage.servicePackage.MemberServiceTest" />
-      <option name="METHOD_NAME" value="중복_회원_예외" />
+      <option name="MAIN_CLASS_NAME" value="jpa.jpaservice.domainPakage.servicePackage.OrderServiceTest" />
+      <option name="METHOD_NAME" value="주문취소" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceTest.상품주문_재고수량초과" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jpaservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpa.jpaservice.domainPakage.servicePackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpa.jpaservice.domainPakage.servicePackage" />
+      <option name="MAIN_CLASS_NAME" value="jpa.jpaservice.domainPakage.servicePackage.OrderServiceTest" />
+      <option name="METHOD_NAME" value="상품주문_재고수량초과" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderServiceTest" />
+        <item itemvalue="JUnit.OrderServiceTest.주문취소" />
+        <item itemvalue="JUnit.OrderServiceTest.상품주문_재고수량초과" />
+        <item itemvalue="JUnit.OrderServiceTest.상품주문" />
         <item itemvalue="JUnit.MemberServiceTest" />
-        <item itemvalue="JUnit.MemberServiceTest.중복_회원_예외" />
-        <item itemvalue="JUnit.MemberServiceTest.회원가입" />
-        <item itemvalue="Application.JpaserviceApplication" />
-        <item itemvalue="JUnit.MemberRepositoryTest.testMember" />
       </list>
     </recent_temporary>
   </component>
@@ -202,10 +196,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" width="816" height="728" key="#Intentions/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608470375447" />
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1608468810746">
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1608593296587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608468810746" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608593296587" />
+    <state x="536" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608593212446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="536" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608593212446" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608453296636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,22 +216,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608212725029" />
-    <state width="1879" height="348" key="GridCell.Tab.0.bottom" timestamp="1608471185536">
+    <state width="1879" height="229" key="GridCell.Tab.0.bottom" timestamp="1608625641107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608471185536" />
-    <state width="1879" height="348" key="GridCell.Tab.0.center" timestamp="1608471185536">
+    <state width="1879" height="229" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608625641107" />
+    <state width="1879" height="229" key="GridCell.Tab.0.center" timestamp="1608625641107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608471185536" />
-    <state width="1879" height="348" key="GridCell.Tab.0.left" timestamp="1608471185536">
+    <state width="1879" height="229" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608625641107" />
+    <state width="1879" height="229" key="GridCell.Tab.0.left" timestamp="1608625641107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608471185536" />
-    <state width="1879" height="348" key="GridCell.Tab.0.right" timestamp="1608471185536">
+    <state width="1879" height="229" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608625641107" />
+    <state width="1879" height="229" key="GridCell.Tab.0.right" timestamp="1608625641107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608471185536" />
+    <state width="1879" height="229" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608625641107" />
     <state width="1879" height="348" key="GridCell.Tab.1.bottom" timestamp="1608471185536">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -250,22 +248,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1879" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608471185536" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1608463544314">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1608548973491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608463544314" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608548973491" />
     <state width="498" height="445" key="SwitcherDM" timestamp="1608453430998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="445" key="SwitcherDM/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608453430998" />
-    <state x="775" y="198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608447375668">
+    <state x="775" y="198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608625399192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="775" y="198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608447375668" />
-    <state x="731" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608468929790">
+    <state x="775" y="198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608625399192" />
+    <state x="731" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1608622531365">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608468929790" />
+    <state x="731" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1608622531365" />
     <state x="658" y="260" width="604" height="520" key="find.popup" timestamp="1608464551487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

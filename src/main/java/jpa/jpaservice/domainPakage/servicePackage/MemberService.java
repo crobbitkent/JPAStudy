@@ -59,6 +59,6 @@ public class MemberService
 	@Transactional(readOnly = true) // 조회만 하기 떄문에 최적화 가능
 	public Member findOne(Long memberId)
 	{
-		return memberRepository.find(memberId);
+		return memberRepository.findOne(memberId);
 	}
 }

@@ -24,4 +24,6 @@ public class Delivery
 	// @Enumerated(EnumType.ORDINAL) // ordinal로 할 경우, 새로 enum을 추가하면 DB가 꼬인다... 그래서 안씀 젯따이
 	@Enumerated(EnumType.STRING)
 	private DeliveryStatus deliveryStatus; // READY, COMPLETED
+	
+	
 }

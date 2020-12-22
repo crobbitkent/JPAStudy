@@ -25,7 +25,7 @@ public class MemberRepository
 		return member.getId(); // 커맨드와 쿼리를 분리하기 위해서 멤버를 직접 리턴하지 않음
 	}
 	
-	public Member find(Long id)
+	public Member findOne(Long id)
 	{
 		return em.find(Member.class, id);
 	}

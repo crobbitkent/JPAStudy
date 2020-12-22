@@ -39,7 +39,7 @@ public class MemberServiceTest
 		
 		// then
 		em.flush(); // 쿼리 등록 내용을 DB에 반영
-		assertEquals(member, memberRepository.find(saveId));
+		assertEquals(member, memberRepository.findOne(saveId));
 		
 	}
 	
