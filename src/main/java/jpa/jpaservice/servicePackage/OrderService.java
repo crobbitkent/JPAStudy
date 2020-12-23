@@ -1,14 +1,14 @@
-package jpa.jpaservice.domainPakage.servicePackage;
+package jpa.jpaservice.servicePackage;
 
 
 import jpa.jpaservice.domainPakage.Delivery;
 import jpa.jpaservice.domainPakage.Member;
 import jpa.jpaservice.domainPakage.Order;
 import jpa.jpaservice.domainPakage.OrderItem;
-import jpa.jpaservice.domainPakage.itemPackage.Item;
-import jpa.jpaservice.domainPakage.repositoryPackage.ItemRepository;
-import jpa.jpaservice.domainPakage.repositoryPackage.MemberRepository;
-import jpa.jpaservice.domainPakage.repositoryPackage.OrderRepository;
+import jpa.jpaservice.itemPackage.Item;
+import jpa.jpaservice.repositoryPackage.ItemRepository;
+import jpa.jpaservice.repositoryPackage.MemberRepository;
+import jpa.jpaservice.repositoryPackage.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

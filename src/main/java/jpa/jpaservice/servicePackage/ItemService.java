@@ -1,8 +1,8 @@
-package jpa.jpaservice.domainPakage.servicePackage;
+package jpa.jpaservice.servicePackage;
 
 
-import jpa.jpaservice.domainPakage.itemPackage.Item;
-import jpa.jpaservice.domainPakage.repositoryPackage.ItemRepository;
+import jpa.jpaservice.itemPackage.Item;
+import jpa.jpaservice.repositoryPackage.ItemRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

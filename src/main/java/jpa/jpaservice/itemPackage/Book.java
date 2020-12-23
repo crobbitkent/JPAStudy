@@ -1,8 +1,7 @@
-package jpa.jpaservice.domainPakage.itemPackage;
+package jpa.jpaservice.itemPackage;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.annotations.DiscriminatorFormula;
 
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;

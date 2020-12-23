@@ -1,6 +1,6 @@
 package jpa.jpaservice.domainPakage;
 
-import jpa.jpaservice.domainPakage.itemPackage.Item;
+import jpa.jpaservice.itemPackage.Item;
 import lombok.Getter;
 import lombok.Setter;
 

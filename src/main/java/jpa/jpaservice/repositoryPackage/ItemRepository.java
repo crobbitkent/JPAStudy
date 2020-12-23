@@ -1,6 +1,6 @@
-package jpa.jpaservice.domainPakage.repositoryPackage;
+package jpa.jpaservice.repositoryPackage;
 
-import jpa.jpaservice.domainPakage.itemPackage.Item;
+import jpa.jpaservice.itemPackage.Item;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 

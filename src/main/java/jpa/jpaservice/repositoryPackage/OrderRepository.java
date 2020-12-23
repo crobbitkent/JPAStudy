@@ -1,4 +1,4 @@
-package jpa.jpaservice.domainPakage.repositoryPackage;
+package jpa.jpaservice.repositoryPackage;
 
 import jpa.jpaservice.domainPakage.Order;
 import lombok.RequiredArgsConstructor;

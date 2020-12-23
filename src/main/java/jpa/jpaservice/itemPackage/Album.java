@@ -1,4 +1,4 @@
-package jpa.jpaservice.domainPakage.itemPackage;
+package jpa.jpaservice.itemPackage;
 
 import lombok.Getter;
 import lombok.Setter;

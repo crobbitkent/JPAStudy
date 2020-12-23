@@ -1,7 +1,7 @@
 package jpa.jpaservice;
 
 import jpa.jpaservice.domainPakage.Member;
-import jpa.jpaservice.domainPakage.repositoryPackage.MemberRepository;
+import jpa.jpaservice.repositoryPackage.MemberRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;

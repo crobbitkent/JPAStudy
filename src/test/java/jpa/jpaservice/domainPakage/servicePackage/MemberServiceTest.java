@@ -1,8 +1,9 @@
 package jpa.jpaservice.domainPakage.servicePackage;
 
 import jpa.jpaservice.domainPakage.Member;
-import jpa.jpaservice.domainPakage.repositoryPackage.MemberRepository;
+import jpa.jpaservice.repositoryPackage.MemberRepository;
 
+import jpa.jpaservice.servicePackage.MemberService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +21,8 @@ import static org.junit.Assert.fail;
 @Transactional // 롤백 역할. 테스트에서만
 public class MemberServiceTest
 {
-	@Autowired MemberService memberService;
+	@Autowired
+	MemberService memberService;
 	@Autowired MemberRepository memberRepository;
 	@Autowired EntityManager em;
 	
